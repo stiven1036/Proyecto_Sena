@@ -1,0 +1,120 @@
+
+							
+
+	/* Buttons */
+		
+		.button
+		{
+			position: relative;
+			display: inline-block;
+			margin-top: 2em;
+			padding: 0.90em 1.5em;
+			background: #17C643;
+			border-radius: 40px;
+			text-decoration: none;
+			text-transform: uppercase;
+			font-size: 1.1em;
+			color: #000000;
+			-moz-transition: color 0.35s ease-in-out, background-color 0.35s ease-in-out;
+			-webkit-transition: color 0.35s ease-in-out, background-color 0.35s ease-in-out;
+			-o-transition: color 0.35s ease-in-out, background-color 0.35s ease-in-out;
+			-ms-transition: color 0.35s ease-in-out, background-color 0.35s ease-in-out;
+			transition: color 0.35s ease-in-out, background-color 0.35s ease-in-out;
+			cursor: pointer;
+		}
+
+			.button:hover
+			{
+				background: #FFFFFF;
+				color: #FFFFFF !important;
+			}
+			
+/*********************************************************************************/
+/* Header                                                                        */
+/*********************************************************************************/
+
+	#header
+	{
+		position: relative;
+		background: #FF8000; 
+		background-size: cover;
+	}
+
+	#logo
+	{
+	}
+	
+	#nav
+	{
+	}
+
+		#nav ul
+		{
+			margin: 0;
+		}
+	
+/*********************************************************************************/
+/* Banner                                                                        */
+/*********************************************************************************/
+
+	#banner
+	{
+		position: relative;
+		background: #333;
+		color: #fff;
+	}
+
+/*********************************************************************************/
+/* Main                                                                          */
+/*********************************************************************************/
+
+	#main
+	{
+		position: relative;
+		background: #fff;
+	}
+
+/*********************************************************************************/
+/* Featured                                                                      */
+/*********************************************************************************/
+	
+	
+/*********************************************************************************/
+/* Footer                                                                        */
+/*********************************************************************************/
+	
+	#footer
+	{
+		position: relative;
+		background: #000000;
+	}
+	
+	#footer h2
+	{
+		display: block;
+		color: #FFFFFF;
+	}
+	
+/*********************************************************************************/
+/* Copyright                                                                     */
+/*********************************************************************************/
+	
+	#copyright
+	{
+		position: relative;
+		padding: 3em 0em;
+		letter-spacing: 1px;
+		text-align: center;
+		color: #000000;
+		background: #19C128;
+	}
+	
+	#copyright .container
+	{
+	}
+	
+	#copyright a
+	{
+		text-decoration: none;
+		color: #000000;
+	}	

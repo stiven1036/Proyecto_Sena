@@ -1,0 +1,313 @@
+<!DOCTYPE HTML>
+<!--
+	Iridium by TEMPLATED
+    templated.co @templatedco
+    Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html>
+	<head>
+		<title>Sena</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<link href='http://fonts.googleapis.com/css?family=Arimo:400,700' rel='stylesheet' type='text/css'>
+		<!--[if lte IE 8]><script src="js/html5shiv.js"></script><![endif]-->
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		<script src="js/skel.min.js"></script>
+		<script src="js/skel-panels.min.js"></script>
+		<script src="js/init.js"></script>
+		<noscript>
+			<link rel="stylesheet" href="css/skel-noscript.css" />
+			<link rel="stylesheet" href="css/style.css" />
+			<link rel="stylesheet" href="css/style-desktop.css" />
+		</noscript>
+		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="css/ie/v9.css" /><![endif]-->
+	</head>
+	<body>
+
+		<!-- Header -->
+		<div id="header">
+			<div class="container"> 
+				
+				<nav id="nav">     <ul>         <li><a
+				href="index.html">Homepage</a></li>         <li><a
+				href="">Left Sidebar</a></li>         <li><a
+				href="gestionProgramas.html">Gestion de Programas</a></li>
+				<li  class="active"><a href="Registro.html">Registro</a></li>
+				<li><a href="inicioSesion.html">Inicio Sesion</a></li>
+				<div id="logo">             <br>
+
+					<h1><a href="#">Sena</a></h1>
+					<span>Servicio de Aprendizaje</span>
+
+					
+				</div>
+					</ul>
+				</nav>
+			</div>
+		</div>
+				<!-- Logo -->
+				
+				
+				<!-- Nav -->
+				
+		<!-- Main -->
+		<div id="main">
+			<div class="container">
+				<div class="row"> 
+
+					<!-- Content -->
+					<div id="content" class="8u skel-cell-important">
+						<section class="container-fluid">
+        <div class="tab-content" id="panelPrograma">
+            <h3>Gestión Programas de Formación</h3>
+            <br>
+            <ul class="nav nav-tabs">
+                <li class="active"><a href="#competencias" data-toggle="tab">Competencias</a></li>
+                <li><a href="#ra" data-toggle="tab">Resultados de Aprendizaje</a></li> 
+                <li><a href="#conocimientos" data-toggle="tab">Conocimientos</a></li>
+                <li><a href="#ce" data-toggle="tab">Criterios de Evaluación</a></li>
+                <li><a href="#ap" data-toggle="tab">Actividades de Proyecto</a></li>
+            </ul>    
+        
+            <div class="tab-pane fade in active" id="competencias">
+                <br>
+                <h4>Agregar Competencia</h4>
+                <br>
+                <form action="" method="post">
+                    <label for="codCompetencia">Código</label>
+                    <input type="text" name="codCompetencia" id="codCompetencia">
+                    <br>
+                    <br>
+                    <label for="denomCompetencia">Denominación</label>
+                    <input type="text" name="denomCompetencia" id="denomCompetencia">
+                    <br>
+                    <br>
+                    <label for="horasCompetencia">Horas</label>
+                    <input type="text" name="horasCompetencia" id="horasCompetencia">
+                    <br>
+                    <br>       
+                    <input type="submit" value="Registrar" >
+                </form>
+            </div>
+            <div class="tab-pane fade" id="ra">
+                <br>
+                <h4>Agregar Resultado de Aprendizaje</h4>
+                <br>
+                <form action="" method="post">
+                    <label for="codCompetencia">Competencia</label>
+                    <input type="text" name="codCompetencia" id="codCompetencia">
+                    <br>
+                    <br>
+                    <label for="codRa">Código</label>
+                    <input type="text" name="codRa" id="codRa">
+                    <br>
+                    <br>
+                    <label for="denomRa">Denominación</label>
+                    <input type="text" name="denomRa" id="denomRa">
+                    <br>
+                    <br>       
+                    <input type="submit" value="Registrar" >
+                </form>
+            </div>
+            <div class="tab-pane fade" id="conocimientos">
+                <br>
+                <h4>Agregar Conocimiento</h4>
+                <br>
+                <form action="" method="post">
+                    <label for="codCompetencia">Competencia</label>
+                    <input type="text" name="codCompetencia" id="codCompetencia">
+                    <br>
+                    <br>
+                    <label for="codRa">Resultado(s)</label>
+                    <input type="text" name="codRa" id="codRa">
+                    <br>
+                    <br>
+                    <label for="tipoConocimiento">Tipo</label>
+                    <input type="text" name="tipoConocimiento" id="tipoConocimiento">
+                    <br>
+                    <br>
+                    <label for="codConocimiento">Código</label>
+                    <input type="text" name="codConocimiento" id="codConocimiento">
+                    <br>
+                    <br>
+                    <label for="desConocimiento">Descripción</label>
+                    <input type="text" name="desConocimiento" id="desConocimiento">
+                    <br>
+                    <br>
+                    <input type="submit" value="Registrar" >
+                </form>
+            </div>
+            <div class="tab-pane fade" id="ce">
+                <br>
+                <h4>Agregar Criterio de Evaluación</h4>
+                <br>
+                <form action="" method="post">
+                    <label for="codCompetencia">Competencia</label>
+                    <input type="text" name="codCompetencia" id="codCompetencia">
+                    <br>
+                    <br>
+                    <label for="codRa">Resultado(s)</label>
+                    <input type="text" name="codRa" id="codRa">
+                    <br>
+                    <br>                    
+                    <label for="codCe">Código</label>
+                    <input type="text" name="codCe" id="codCe">
+                    <br>
+                    <br>
+                    <label for="desCe">Descripción</label>
+                    <input type="text" name="desCe" id="desCe">
+                    <br>
+                    <br>
+                    <input type="submit" value="Registrar" >
+                </form>
+            </div>
+            <div class="tab-pane fade" id="ap">
+                <br>
+                <h4>Agregar Actividad de Proyecto</h4>
+                <br>
+                <form action="" method="post">
+                    <label for="codCompetencia">Competencia(s)</label>
+                    <input type="text" name="codCompetencia" id="codCompetencia">
+                    <br>
+                    <br>
+                    <label for="codRa">Resultado(s)</label>
+                    <input type="text" name="codRa" id="codRa">
+                    <br>
+                    <br>                    
+                    <label for="codConocimiento">Conocimientos</label>
+                    <input type="text" name="codConocimiento" id="codConocimiento">
+                    <br>
+                    <br>
+                    <label for="codCe">Criterio(s)</label>
+                    <input type="text" name="codCe" id="codCe">
+                    <br>
+                    <br>
+                    <label for="codAp">Código</label>
+                    <input type="text" name="codAp" id="codAp">
+                    <br>
+                    <br>
+                    <label for="nomAp">Nombre Actividad</label>
+                    <input type="text" name="nomAp" id="nomAp">
+                    <br>
+                    <br>
+                    <label for="horasAp">Horas</label>
+                    <input type="text" name="horasAp" id="horasAp">
+                    <br>
+                    <br>
+                    <input type="submit" value="Registrar" >
+                </form>
+            </div>
+        </div>
+    </section>
+    <section class="container-fluid">
+					</div>
+					
+					<!-- Sidebar -->
+					<div id="sidebar" class="4u">
+						<section>
+							<header>
+								<h2>Pellentesque vulputate</h2>
+							</header>
+							<ul class="style">
+								<li>
+									<p class="posted">August 11, 2002  |  (10 )  Comments</p>
+									<img src="images/pic04.jpg" alt="" />
+									<p class="text">Nullam non wisi a sem eleifend. Donec mattis libero eget urna. Pellentesque viverra enim.</p>
+								</li>
+								<li>
+									<p class="posted">August 11, 2002  |  (10 )  Comments</p>
+									<img src="images/pic05.jpg" alt="" />
+									<p class="text">Nullam non wisi a sem eleifend. Donec mattis libero eget urna. Pellentesque viverra enim.</p>
+								</li>
+								<li>
+									<p class="posted">August 11, 2002  |  (10 )  Comments</p>
+									<img src="images/pic06.jpg" alt="" />
+									<p class="text">Nullam non wisi a sem eleifend. Donec mattis libero eget urna. Pellentesque viverra enim.</p>
+								</li>
+								<li>
+									<p class="posted">August 11, 2002  |  (10 )  Comments</p>
+									<img src="images/pic05.jpg" alt="" />
+									<p class="text">Nullam non wisi a sem eleifend. Donec mattis libero eget urna. Pellentesque viverra enim.</p>
+								</li>
+							</ul>
+						</section>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+
+		<!-- Footer -->
+		<div id="featured">
+			<div class="container">
+				<div class="row">
+					<div class="4u">
+						<h2>Aenean elementum facilisis</h2>
+						<a href="#" class="image full"><img src="images/pic01.jpg" alt="" /></a>
+						<p>Nullam non wisi a sem semper eleifend. Donec mattis libero eget urna. Donec leo, vivamus fermentum nibh in augue praesent a lacus at urna congue rutrum. Quisque dictum. Pellentesque viverra vulputate enim.</p>
+						<p><a href="#" class="button">More Details</a></p>
+					</div>
+					<div class="4u">
+						<h2>Fusce ultrices fringilla</h2>
+						<a href="#" class="image full"><img src="images/pic02.jpg" alt="" /></a>
+						<p>Nullam non wisi a sem semper eleifend. Donec mattis libero eget urna. Donec leo, vivamus fermentum nibh in augue praesent a lacus at urna congue rutrum. Quisque dictum. Pellentesque viverra vulputate enim.</p>
+						<p><a href="#" class="button">More Details</a></p>
+					</div>
+					<div class="4u">
+						<h2>Etiam rhoncus volutpat erat</h2>
+						<a href="#" class="image full"><img src="images/pic03.jpg" alt="" /></a>
+						<p>Nullam non wisi a sem semper eleifend. Donec mattis libero eget urna. Donec leo, vivamus fermentum nibh in augue praesent a lacus at urna congue rutrum. Quisque dictum. Pellentesque viverra vulputate enim.</p>
+						<p><a href="#" class="button">More Details</a></p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<!-- Footer -->
+		<div id="footer">
+			<div class="container">
+				<div class="row">
+					<div class="4u">
+						<section>
+							<h2>Latest Posts</h2>
+							<ul class="default">
+								<li><a href="#">Pellentesque lectus gravida blandit</a></li>
+								
+							</ul>
+						</section>
+					</div>
+					<div class="4u">
+						<section>
+							<h2>Ultrices fringilla</h2>
+							<ul class="default">
+								<li><a href="#">Pellentesque lectus gravida blandit</a></li>
+								
+							</ul>
+						</section>
+					</div>
+					<div class="4u">
+						<section>
+							<h2>Aenean elementum</h2>
+							<ul class="default">
+								<li><a href="#">Pellentesque lectus gravida blandit</a></li>
+								
+							</ul>
+						</section>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Copyright -->
+		<div id="copyright">
+			<div class="container">
+				© 2018 Copyright:
+           <a href="https://sena.edu.co"> www.sena.edu.co</a>
+			</div>
+		</div>
+		
+	</body>
+</html>
